@@ -3,9 +3,9 @@ import "./style.css";
 const Developer = ({ name, age, country }) => {
   return (
     <div className="card">
-      <label for="name">{name}</label>
-      <label for="name">{age}</label>
-      <label for="name">{country}</label>
+      <label for="name">Dev: {name}</label>
+      <label for="name">Idade: {age}</label>
+      <label for="name">país: {country}</label>
     </div>
   );
 };
